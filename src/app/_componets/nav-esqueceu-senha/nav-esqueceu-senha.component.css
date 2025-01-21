@@ -1,0 +1,43 @@
+nav{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav-part-one{
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-part-one img{
+  padding-left: 10px;
+  color: #0866ff;
+  height: 50px;
+}
+
+.nav-part-two{
+  display: flex;
+  margin-right: 5%;
+  align-items: center;
+  width: auto;
+
+}
+
+.nav-part-two input{
+  height: 40px;
+  width: 50%;
+  margin: 10px 15px 10px 0px;
+}
+
+.nav-part-two button{
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:450px){
+  nav{
+    display: block;
+  }
+}

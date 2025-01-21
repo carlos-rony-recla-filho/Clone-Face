@@ -1,0 +1,39 @@
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-liguagens{
+  margin-top: 12vh;
+  position: relative;
+}
+
+.footer-liguagens ul{
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+.footer-liguagens li{
+  padding-left: 15px;
+  left: 0px;
+  font-size: 12px;
+  color: gray;
+  cursor: pointer;
+}
+
+
+@media(max-width: 450px){
+  .footer-liguagens{
+    margin-top: 5vh;
+  }
+  .footer-liguagens ul{
+    display: block;
+    /* display: none; */
+  }
+  .content{
+    display: block;
+  }
+}

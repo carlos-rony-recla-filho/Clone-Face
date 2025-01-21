@@ -1,0 +1,163 @@
+main {
+  margin-top: 5vh;
+}
+
+.content-img-face {
+  width: 400px;
+  text-align: center;
+}
+
+.img-facebook {
+  height: 82px;
+}
+
+form {
+  background-color: #FFF;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+  margin-bottom: 25px;
+}
+
+.create-account-titile {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.account-comment-title {
+  color: #7f786d;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.form-name {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+
+}
+
+.inputs-names {
+  width: 45%;
+}
+
+.form-birth {
+  display: flex;
+  justify-content: space-around;
+}
+
+.birth-title {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.birth-title h6 {
+  font-size: 12px;
+  font-weight: 450;
+  padding-left: 10px;
+  color: #7f786d;
+}
+
+.form-birth {
+  padding-bottom: 10px;
+}
+
+.input-data {
+  width: 30%;
+}
+
+.form-gender {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.gender {
+  border: 1px solid rgb(195, 192, 192);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 35px;
+  width: 30%;
+  border-radius: 5%;
+}
+
+.gender-input {
+  margin-top: 2px;
+}
+
+.gender label {
+  padding-right: 5px;
+  font-size: 15px;
+}
+
+.content-input-email {
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-input-email input {
+  width: 85%;
+}
+
+.guidancer {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.gender-title {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.gender-title h6 {
+  font-size: 12px;
+  font-weight: 450;
+  padding-left: 10px;
+  color: #7f786d;
+}
+
+.guidance-content {
+  padding: 1px 5px 0px 25px;
+  margin-bottom: -10px;
+}
+
+.guidance-content p {
+  font-size: 10px;
+  text-align: left;
+}
+
+.button-register {
+  padding-bottom: 5px;
+}
+
+.button-register button {
+  height: 38px;
+  width: 42%;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: top;
+}
+
+.questioning-account label {
+  padding: 5px 0px 15px 0px;
+  font-size: 16px;
+  color: #1877F2;
+}
+
+
+@media (max-width:450px) {
+  form {
+    width: 98vw;
+  }
+
+  .content-img-face {
+    width: 100%;
+  }
+  .gender label{
+    font-size: 10px;
+  }
+}

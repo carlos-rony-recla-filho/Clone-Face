@@ -1,0 +1,59 @@
+form {
+  background-color: #FFF;
+  border-radius: 10px;
+  width: 480px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+  margin-bottom: 18vh;
+}
+
+.title-form{
+  display: block;
+  text-align: left;
+}
+.title-form h1{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 10px 0px 10px;
+}
+
+.p-comment{
+  text-align: left;
+}
+
+.p-comment p{
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.input-form{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /* padding-bottom: 5px; */
+}
+
+.input-form input{
+  width: 80%;
+  height: 50px;
+}
+
+.buttons-form{
+display: flex;
+align-items: center;
+justify-content: right;
+padding-bottom: 13px;
+}
+
+.buttons-form button{
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+@media (max-width: 450px){
+  form{
+    width: 98vw;
+  }
+}
